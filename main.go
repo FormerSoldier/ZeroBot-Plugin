@@ -90,7 +90,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emozi"            // 颜文字抽象转写
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"            // 好友申请群聊邀请事件处理
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"             // 渲染任意文字到图片
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"          // 运势
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"          // 运势
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"            // 笑话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"          // 原神抽卡
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"              // 制图
@@ -121,7 +121,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"          // 浅草寺求签
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/poker"            // 抽扑克
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"           // 一群一天一夫一妻制群老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qzone"            // qq空间表白墙
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/qzone"            // qq空间表白墙
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/realcugan"        // realcugan清晰术
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"           // 投胎
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/robbery"          // 打劫群友的ATRI币
@@ -140,7 +140,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wantquotes"       // 据意查句
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/warframeapi"      // warframeAPI插件
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wenxinvilg"       // 百度文心AI画图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wife"             // 抽老婆
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wife"             // 抽老婆
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordcount"        // 聊天热词
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"           // 猜单词
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"              // 游戏王相关插件
@@ -218,7 +218,7 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana := flag.String("n", "椛椛", "Set default nickname.")
+	adana := flag.String("n", "一抹多", "Set default nickname.")
 	prefix := flag.String("p", "/", "Set command prefix.")
 	runcfg := flag.String("c", "", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
@@ -252,7 +252,7 @@ func init() {
 
 	// 通过代码写死的方式添加主人账号
 	// sus = append(sus, 12345678)
-	// sus = append(sus, 87654321)
+	sus = append(sus, 793557590)
 
 	// 启用 webui
 	// go webctrl.RunGui(*g)
